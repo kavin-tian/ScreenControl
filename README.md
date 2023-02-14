@@ -65,6 +65,10 @@ Add it in your root build.gradle at the end of repositories:
                 <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
             </intent-filter>
         </receiver>
+	
+#### 注意事项
+
+Activity 使用 android:launchMode="singleInstance" 存在无法弹出系统管理员授权页面。
 
 #### 其他
 
